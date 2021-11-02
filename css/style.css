@@ -9,7 +9,7 @@ html, body{
 }
 
 body{
-    background: linear-gradient(180deg, rgb(15, 7, 160) 8%, rgb(60, 60, 192) 53%, rgb(0, 89, 255) 100%);
+    background: #FFFFFB; 
     color:white;
 }
 
@@ -18,6 +18,7 @@ h1 {
     letter-spacing: 1px;
     font-size: 20px;
     margin-top: 10px;
+    color: #333333;
 }
 
 h2 {
@@ -25,6 +26,7 @@ h2 {
     font-weight: 400;
     font-size:14px;
     letter-spacing: 1px;
+    color: #333333;
 }
 
 .Main-header {
@@ -35,8 +37,8 @@ h2 {
     border-radius: 50%;
     width: 70px;
     margin-top:20px;
-    border: solid white;
-    box-shadow: 0 0 10px;
+  /*  border: solid white; */
+  /*  box-shadow: 0 0 10px; */
 }
 
 .social-icons{
@@ -58,16 +60,16 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     display: block;
-    background:white;
+    background:rgb(238, 238, 238);
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 4px;
-    color:blue;
+    color:rgb(58, 58, 252);
 }
 
 .link-list li a span {
-    color: grey;
+    color: rgb(105, 105, 105);
     display: block;
     margin-top: 10x;
-
+    font-weight: lighter;
 }
